@@ -28,7 +28,7 @@ export default function Home() {
         <nav className="nav" aria-label="Main navigation">
           <a href="#services">Services</a><a href="#about">About</a><a href="#areas">Service Area</a><a href="#contact">Contact</a>
         </nav>
-        <a className="button button-small" href="tel:+17199223350">Call (719) 9223350</a>
+        <a className="button button-small" href="tel:+1719922-3350">Call (719) 922-3350</a>
       </header>
 
       <section className="hero" id="top">
@@ -37,7 +37,7 @@ export default function Home() {
             <div className="eyebrow">PROUDLY SERVING COLORADO SPRINGS</div>
             <h1>Local plumbing service with <span>peak-performance</span> standards.</h1>
             <p>Honest, dependable residential plumbing and drain solutions from a Colorado-native team committed to taking care of our community.</p>
-            <div className="hero-actions"><a className="button" href="tel:+17199223350">Call Now</a><a className="button button-outline" href="#contact">Request Service</a></div>
+            <div className="hero-actions"><a className="button" href="tel:+1719922-3350">Call Now</a><a className="button button-outline" href="#contact">Request Service</a></div>
             <div className="trust-row">
               <div><Icon type="shield" /><span><b>Honest</b><small>straightforward service</small></span></div>
               <div><Icon type="wrench" /><span><b>Dependable</b><small>professional workmanship</small></span></div>
@@ -63,8 +63,8 @@ export default function Home() {
 
       <section className="section shell contact" id="contact"><div className="contact-copy"><div className="eyebrow red">CONTACT US</div><h2>Tell us how we can help.</h2><p>Use this form to request service. Call or send us a message to request service.</p><div className="contact-lines"><a href="tel:+17199223350">(719) 922-3350</a><a href="mailto:inclineplumbinganddrain@gmail.com">inclineplumbinganddrain@gmail.com</a><span>Colorado Springs, Colorado</span></div></div><form className="form" action="mailto:inclineplumbinganddrain@gmail.com" method="post" encType="text/plain"><label>Name<input name="name" required placeholder="Your name" /></label><label>Phone<input name="phone" required placeholder="(719) 555-0000" /></label><label>Email<input name="email" type="email" placeholder="you@email.com" /></label><label>How can we help?<textarea name="message" required rows={5} placeholder="Tell us what is going on..." /></label><button className="button" type="submit">Request Service</button></form></section>
 
-      <footer className="footer"><div className="shell footer-grid"><div className="footer-brand"><Image src="/incline-logo.png" alt="Incline Plumbing & Drain" width={145} height={145} /><p>Keeping Your Home at Peak Performance</p></div><div><b>Services</b><a href="#services">Plumbing Repairs</a><a href="#services">Drain Cleaning</a><a href="#services">Water Heaters</a></div><div><b>Company</b><a href="#about">About</a><a href="#areas">Service Area</a><a href="#contact">Contact</a></div><div><b>Get Service</b><a href="tel:+17195025709">(719) 502-5709</a><a href="mailto:inclineplumbinganddrain@gmail.com">Email Us</a></div></div><div className="shell footer-bottom">© 2026 Incline Plumbing & Drain. All rights reserved.</div></footer>
-      <a className="mobile-call" href="tel:+17199223350">Call Incline Plumbing</a>
+      <footer className="footer"><div className="shell footer-grid"><div className="footer-brand"><Image src="/incline-logo.png" alt="Incline Plumbing & Drain" width={145} height={145} /><p>Keeping Your Home at Peak Performance</p></div><div><b>Services</b><a href="#services">Plumbing Repairs</a><a href="#services">Drain Cleaning</a><a href="#services">Water Heaters</a></div><div><b>Company</b><a href="#about">About</a><a href="#areas">Service Area</a><a href="#contact">Contact</a></div><div><b>Get Service</b><a href="tel:+17195025709">(719) 922-3350</a><a href="mailto:inclineplumbinganddrain@gmail.com">Email Us</a></div></div><div className="shell footer-bottom">© 2026 Incline Plumbing & Drain. All rights reserved.</div></footer>
+      <a className="mobile-call" href="tel:+1719922-3350">Call Incline Plumbing</a>
     </main>
   );
 }
